@@ -6,11 +6,6 @@ namespace DeliveryCalculator\Result;
 use DateTime;
 use DeliveryCalculator\Providers\Provider;
 
-/**
- * Delivery result
- *
- * @package DeliveryCalculator
- */
 class Result
 {
     /**
@@ -64,7 +59,7 @@ class Result
     {
         $minDate = null;
         foreach ($this->getItems() as $item) {
-            if (is_null($minDate) || $minDate > $item->getDate()){
+            if (is_null($minDate) || $minDate > $item->getDate()) {
                 $minDate = $item->getDate();
             }
         }

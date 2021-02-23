@@ -8,36 +8,42 @@ class RequestItem implements RequestItemInterface
 {
     /**
      * Item width, mm
+     *
      * @var int
      */
     protected int $width;
 
     /**
      * Item length, mm
+     *
      * @var int
      */
     protected int $length;
 
     /**
      * Item height, mm
+     *
      * @var int
      */
     protected int $height;
 
     /**
      * Item weight, kg
+     *
      * @var float
      */
     protected float $weight;
 
     /**
      * Items quantity
+     *
      * @var int
      */
     protected int $quantity;
 
     /**
      * Delivery request item constructor
+     *
      * @param int $width
      * @param int $length
      * @param int $height

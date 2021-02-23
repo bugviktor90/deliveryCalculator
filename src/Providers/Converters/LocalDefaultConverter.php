@@ -3,8 +3,6 @@
 
 namespace DeliveryCalculator\Providers\Converters;
 
-
-use DateTime;
 use DeliveryCalculator\Result\ResultItemInterface;
 
 class LocalDefaultConverter implements Converter

@@ -13,6 +13,7 @@ class AProvider extends Provider
 
     /**
      * GuzzleHttp client
+     *
      * @var Client
      */
     protected Client $client;

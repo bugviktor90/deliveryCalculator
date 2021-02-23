@@ -5,11 +5,6 @@ namespace DeliveryCalculator\Result;
 
 use DateTime;
 
-/**
- * Delivery calculator result item
- *
- * @package DeliveryCalculator
- */
 class ResultItem implements ResultItemInterface
 {
     /**

@@ -6,6 +6,7 @@ interface RequestSummaryInterface
 {
     /**
      * Return request summary volume
+     *
      * @return float
      */
     public function getSummaryVolume(): float;
