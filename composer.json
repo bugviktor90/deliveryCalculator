@@ -1,0 +1,20 @@
+{
+    "name": "viktor/delivery-calculator",
+    "description": "Delivery calculator for Technopark",
+    "type": "library",
+    "authors": [
+        {
+            "name": "viktor",
+            "email": "bugviktor90@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DeliveryCalculator\\": "src/"
+        }
+    }
+}
