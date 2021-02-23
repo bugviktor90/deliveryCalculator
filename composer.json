@@ -1,6 +1,6 @@
 {
-    "name": "viktor/delivery-calculator",
-    "description": "Delivery calculator for Technopark",
+    "name": "bugviktor90/delivery-calculator",
+    "description": "Delivery calculator",
     "type": "library",
     "authors": [
         {
